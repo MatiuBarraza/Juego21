@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Cartas 21</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Juego de Cartas: 21</h1>
+
+    <div id="game-board">
+        <!-- Jugador 1 -->
+        <div id="player1" class="player">
+            <h2>Jugador 1</h2>
+            <div id="player1-cards" class="cards"></div>
+            <p>Puntuación: <span id="player1-score">0</span></p>
+            <button id="player1-draw">Pedir Carta</button>
+        </div>
+
+        <!-- Jugador 2 -->
+        <div id="player2" class="player">
+            <h2>Jugador 2</h2>
+            <div id="player2-cards" class="cards"></div>
+            <p>Puntuación: <span id="player2-score">0</span></p>
+            <button id="player2-draw">Pedir Carta</button>
+        </div>
+
+        <!-- Controles -->
+        <div id="controls">
+            <button id="face-off">Enfrentarse</button>
+            <button id="reset-game">Reiniciar Juego</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
